@@ -1,4 +1,51 @@
-# Stack Bootcamp de Data Science
+# Stack - Bootcamp de Data Science 2021 🔎🎲
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+### 📃 Descrição
+O objetivo do projeto é desenvolver uma **aplicação de Recursos Humanos (RH)**, que permita predizer se um **colaborador deixará a empresa**. O projeto engloba desde a **extração dos dados** até a implantação de um **WebApp**.
+
+O projeto foi elaborado pela **[Stack](https://stacktecnologias.com.br/)** no **bootcamp de Data Science** com algumas modificações minhas. Recomendo também o site **[Minerando Dados](https://minerandodados.com.br/)** de Data Science dos mesmos fundadores.
+
+<p align="center"><img src="images/stack_bootcamp_overview.jpg" width="700"></p>
+
+<p align="center">Imagem retirada do canal da <a href="https://www.youtube.com/c/Stack_tecnologias">Stack</a></p>
+
+### 😵 Problema
+
+O problema envolve o **setor de RH** de uma empresa, que deseja entender o que leva seus **colaboradores a deixarem**.
+
+* **Quais fatores influenciam para um colaborador deixar a empresa?**
+  * Pessoas insatisfeitas?
+  * Ambiente de trabalho?
+    * Cargo, Departamento...
+  * Salário?
+  * Tempo na empresa?
+* **Podemos nos antecipar e saber se um determinado colaborador vai sair da empresa?**
+  * Desempenho do colaborador.
+  * Carga de trabalho.
+* **Como diminuir o turnover?**
+
+### 📚 Conteúdo
+- Fonte de dados com MySQL e arquivos
+- Data Lake com MinIO
+- Automatização de Pipeline com Apache Airflow
+- Conteinerização com Docker
+- Análises e modelagem com Python e Jupyter Notebook
+- WebApp com Streamlit
+
+### 🎲 Entendendo a estrutura dos dados
+
+* **Banco de dados**:
+  * Projetos atribuídos a cada colaborador.
+  * Data de contratação, acidente de trabalho.
+  * Departamento, Salário e se o colaborador deixou a empresa.
+* **Avaliação de desempenho:**
+  * Satisfaction Level - O nível de satisfação do colaborador.
+  * Last Evaluation - Nota atribuída ao colaborador na última avaliação de desempenho.
+  * Com os dados de **registros de horas de trabalho**, podemos conseguir a quantidade de horas trabalhadas nos últimos meses.
+
+<p align="center"><img src="images/stack_bootcamp_modelagem_dados.jpg" width="800"></p>
+
+<p align="center">Imagem retirada do canal da <a href="https://www.youtube.com/c/Stack_tecnologias">Stack</a></p>
 
 # Preparação do ambiente
 
